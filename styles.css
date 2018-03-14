@@ -54,9 +54,9 @@ html {
   display: inline-block;
   width: 20vw;
   height: 20vw;
-  max-width: 125px;
-  max-height: 125px;
-  margin: 14px 7px 7px 7px;
+  max-width: 150px;
+  max-height: 150px;
+  margin: 20px 7px 7px 7px;
   -webkit-appearance: none;
   cursor: pointer;
   font-size: 1.5em;
