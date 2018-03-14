@@ -38,6 +38,10 @@ html, body {
   text-align: center;
 }
 
+#secret-code:focus {
+  outline: none !important;
+}
+
 #decrypter-button {
   background-color: #131414;
   color: white;
