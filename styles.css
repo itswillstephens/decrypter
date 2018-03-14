@@ -22,7 +22,7 @@ html, body {
 #secret-code {
   background-color: #131414;
   color: white;
-  border: none;
+  border: 1px solid #20C20E;
   padding: 30px 10px 30px 10px;
   margin: 7px;
   width: 90%;
