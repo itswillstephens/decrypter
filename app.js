@@ -1,16 +1,14 @@
 
-var gravityNum = document.getElementById("gravityNum");
-var calculateButton = document.getElementById("calculate-button");
-var standardDrinks = document.getElementById("standard-drinks");
+var secretCode = document.getElementById("secret-code");
+var decrypterButton = document.getElementById("decrypter-button");
 
 //event listeners (event, function, )
 
-calculateButton.addEventListener("click", decrypt);
+decrypterButton.addEventListener("click", decrypt);
 
 // functions
 
 function decrypt() {
-  var str = document.getElementById('secret-code');
   let odds = str.slice(0,(str.length/2));
   let evens = str.slice((str.length/2));
   let output = "";
