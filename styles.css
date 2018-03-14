@@ -56,10 +56,12 @@ html {
   height: 20vw;
   max-width: 150px;
   max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
   margin: 20px 7px 7px 7px;
   -webkit-appearance: none;
   cursor: pointer;
-  font-size: 4vw;
+  font-size: 2em;
   font-family: 'VT323', monospace;
   box-shadow:5px 5px 50px grey;
   letter-spacing: 1px;
