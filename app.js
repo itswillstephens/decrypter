@@ -1,14 +1,12 @@
-
-var input = document.getElementById("secret-code");
-
-input.addEventListener("keyup", function(event) {
+document.getElementById("secret-code")
+    .addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
         document.getElementById("decrypter-button").click();
     }
 });
 
-// functions
+
 
 function decrypt() {
   var str = document.getElementById("secret-code").value;
