@@ -73,4 +73,6 @@ html, body {
   font-size: 1.3em;
   text-transform: uppercase;
   letter-spacing: 5px;
+  width: 90%;
+  margin: auto;
 }
