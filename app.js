@@ -10,12 +10,12 @@ calculateButton.addEventListener("click", decrypt);
 // functions
 
 function decrypt() {
-  var x = document.getElementById('gravityNum');
-  let odds = x.slice(0,(x.length/2));
-  let evens = x.slice((x.length/2));
+  var str = document.getElementById('secret-code');
+  let odds = str.slice(0,(str.length/2));
+  let evens = str.slice((str.length/2));
   let output = "";
 
-  for (let i = 0; i < x.length; i++) {
+  for (let i = 0; i < str.length; i++) {
             if (i % 2) {
                 output += odds[0];
                 odds = odds.slice(1);
@@ -25,6 +25,6 @@ function decrypt() {
             }
     }
 
-    document.getElementById("standard-drinks").innerHTML = output;
+    document.getElementById("secret-message").innerHTML = output;
 
 }
