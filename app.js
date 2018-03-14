@@ -1,12 +1,12 @@
 
+var input = document.getElementById("secret-code");
 
-var secretCode = document.getElementById("secret-code");
-var decrypterButton = document.getElementById("decrypter-button");
-var secretMessage = document.getElementById("secret-message");
-
-//event listeners (event, function, )
-
-decrypterButton.addEventListener("click", decrypt);
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("decrypter-button").click();
+    }
+});
 
 // functions
 
