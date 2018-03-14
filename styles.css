@@ -65,13 +65,13 @@ html {
   letter-spacing: 1px;
 }
 
-/* #decrypter-button:focus {
+#decrypter-button:focus {
   outline: none !important;
-} */
-
-#decrypter-button:hover {
-  color: #20C20E;
 }
+
+/* #decrypter-button:hover {
+  color: #20C20E;
+} */
 
 #secret-message {
   color: black;
