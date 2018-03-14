@@ -37,7 +37,7 @@ html {
 }
 
 #secret-code::placeholder {
-  color: #20C20E;
+  color: white;
   text-align: center;
 }
 
