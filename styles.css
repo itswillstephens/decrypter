@@ -26,6 +26,7 @@ html {
   background-color: #131414;
   color: white;
   border: 1px solid white;
+  border-radius: 5px;
   padding: 30px 10px 30px 10px;
   margin: 7px;
   width: 90%;
@@ -69,7 +70,6 @@ html {
 }
 
 #decrypter-button:hover, #decrypter-button:active {
-  border: 3px solid #20C20E;
   color: #20C20E;
 }
 
