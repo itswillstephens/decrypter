@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Asap:400,700');
+@import url('https://fonts.googleapis.com/css?family=VT323');
 
 * {
   margin: 0;
@@ -7,137 +7,65 @@
 
 html, body {
   text-align: center;
-  font-family: Asap,sans-serif;
+  font-family: 'VT323', monospace;
   color: black;
-  background: transparent;
+  background: #303133;
   width: 100%;
-  font-size: 1em;
 }
 
-#navbar {
-  height: 50px;
-  width: 100%;
-  position: static;
-  top: 0;
-  text-align: center;
+#container {
+  margin: 5px;
+  padding: 20px;
+  background: #262728;
 }
 
-#navbar img {
-  height: 100%;
-  width: auto;
-  align: left;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background: #f2f2f2;
-}
-
-#business-name {
-  color: black;
-  font-family: Asap, sans-serif;
-  font-weight: bolder;
-  font-size: 1.5em;
-  vertical-align: 50%;
-}
-
-.highlight {
-  background-color: rgb(255, 255, 204);
-  color: black;
-  width: 90%;
-  margin: auto;
-  margin-top: 5px;
-  padding: 10px;
-  font-size: 1em;
-  line-height: 1;
-}
-
-#calculator-box {
-
-}
-
-#volumeUnit {
-  height: 50px;
-  margin: 10px 7px 7px 7px;
-  padding: 15px 6px 15px 6px;
-  font-size: 1em;
-  background: white;
-  border-radius: 7px;
-  text-align: center;
-  width: 20%;
-  float: center;
-}
-
-#volumeNum {
-  margin: 10px 7px 7px 7px;
-  padding: 15px 6px 15px 6px;
-  font-size: 1em;
-  background: white;
-  border-radius: 7px;
-  text-align: left;
-  width: 45%;
-  float: center;
-}
-
-#gravityNum {
-  margin: 10px 7px 7px 7px;
-  padding: 15px 6px 15px 6px;
-  font-size: 1em;
-  background: white;
-  border-radius: 7px;
-  text-align: left;
-  width: 70%;
-  float: center;
-}
-
-#calculate-button {
+#secret-code {
+  background-color: #131414;
   color: white;
-  background-color: #278dcc;
-  padding: 20px 32px;
-  font-size: 1em;
   border: none;
-  border-radius: 12px;
-  text-decoration: none;
-  display: inline-block;
-  width: 85%;
+  padding: 30px 10px 30px 10px;
   margin: 7px;
-  float: center;
+  width: 90%;
+  font-size: 1.3em;
+  font-family: 'VT323', monospace;
+  letter-spacing: 3px;
+  text-align: center;
+  box-shadow:5px 5px 50px grey;
+}
+
+#secret-code::placeholder {
+  color: #20C20E;
+  text-align: center;
+}
+
+#decrypter-button {
+  background-color: #131414;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20vw;
+  height: 20vw;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 14px 7px 7px 7px;
   -webkit-appearance: none;
   cursor: pointer;
+  font-size: 1.3em;
+  font-family: 'VT323', monospace;
+  letter-spacing: 5px;
 }
 
-#result-box {
-  margin: 10px;
-  font-size: 1.2em;
-  color: black;
-  line-height: 1.5;
+#decrypter-button:hover, #decrypter-button:active {
+  border: 3px solid #20C20E;
+  color: #20C20E;
 }
 
-#standard-drinks, #units-of-alcohol, #grams-of-alcohol {
-  font-weight: bolder;
-}
-
-.custom-combobox {
-  position: relative;
-  display: inline-block;
-}
-.custom-combobox-toggle {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin-left: -1px;
-  padding: 0;
-}
-.custom-combobox-input {
-  margin: 0;
-  padding: 5px 10px;
-}
-
-#footer {
-  font-size: 12px;
-   display: inline-block;
-   height: 70px;
-   width:100%;
-   background:#f2f2f2;
+#secret-message {
+  color: white;
+  margin-top: 15px;
+  font-family: 'VT323', monospace;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }

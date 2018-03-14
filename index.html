@@ -9,25 +9,18 @@
 
   <body>
 
-
-    <div id="decrypter-box">
+    <div id="container">
 
       <form>
+        <input autofocus="autofocus" type="password" id="secret-code" placeholder="Enter secure code...">
+        <input type="button" id="decrypter-button" value="GO">
+      </form>
 
-    <div id="code-box">
-      <label for="code">Code:</label>
-      <input type="text" id="secret-code" placeholder="Enter code to be decrypted">
     </div>
 
-    <div id="decrypt-button-box">
-      <input type="button" id="decrypter-button" value="Decrypt">
-
-      <div id="secret-answer" tabindex="0">
+    <div id="output-area">
         <p id="secret-message"></p>
-      </div>
-
-    </form>
-  </div>
+    </div>
 
     <script src="app.js" charset="utf-8"></script>
   </body>
