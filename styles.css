@@ -54,8 +54,8 @@ html {
   display: inline-block;
   width: 20vw;
   height: 20vw;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 125px;
+  max-height: 125px;
   margin: 14px 7px 7px 7px;
   -webkit-appearance: none;
   cursor: pointer;
